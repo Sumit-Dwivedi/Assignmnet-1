@@ -1,0 +1,62 @@
+nav{
+    background-color: violet;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+}
+li{
+    display: inline;
+}
+.greetings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    background-image: -o-linear-gradient(red,yellow);
+}
+h1{
+    font-size: 100px ;
+    color:aliceblue;
+}
+.about{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:chartreuse;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:brown;
+}
+.left{
+    float: left;
+    
+}
+.right{
+    float: right;
+    padding-right: 350px;
+}
+.parent{
+}
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color:chocolate;
+  }
